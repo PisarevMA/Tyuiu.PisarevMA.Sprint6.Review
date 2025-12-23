@@ -21,7 +21,7 @@ namespace Tyuiu.PisarevMA.Sprint6.Review.V11.Test
 
             int res = ds.result_GetMatrix(array, c, k, l);
 
-            int wait = 2;
+            int wait = 7;
 
             Assert.AreEqual(wait, res);
         }
